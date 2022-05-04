@@ -1,5 +1,4 @@
-# Movie-Recommender
-A deep learning based movie recommender system.
+
 # Deep Learning Based Movie Recommendation System
 
 Get movie recommendations for specific user from recommendation model that trained on MovieLens-1M dataset.
@@ -23,7 +22,7 @@ To train with default parameters run;
 python main.py
 ```
 
-Additionaly you can play around with below arguments. If youset "wandb" argument as True,  [Wandb](https://wandb.ai)
+Additionaly you can play around with below arguments. If youset "wandb" argument as True,  [Wandb](https://wandb.ai/site)
 ```python
     arg.add_argument('--data_path', type=str, default=Path.home(), 
                     help='Path to the data directory')
