@@ -22,7 +22,7 @@ To train with default parameters run;
 python main.py
 ```
 
-Additionaly you can play around with below arguments. If youset "wandb" argument as True,  [Wandb](https://wandb.ai/site)
+Additionaly you can play around with below arguments. 
 ```python
     arg.add_argument('--data_path', type=str, default=Path.home(), 
                     help='Path to the data directory')
@@ -43,4 +43,14 @@ Additionaly you can play around with below arguments. If youset "wandb" argument
                     help='Whether to use wandb tool for hyperparameter tuning')
     arg.add_argument('--hp_run_number', type=int, default=200,
                     help='Number of hyperparameter tuning runs')
+```
+If you set "wandb" argument as True,  [Wandb](https://wandb.ai/site) tool will start to try hyperparameters listed in hp_tuner.py below.
+```bash
+            'optimizer': {'values': ['sgd', 'adam', 'rmsprop']},
+            'learning_rate': {'values': [0.001, 0.0005, 0.0001, 0.00005]},
+            'epochs': {'values': [50]},
+            'model_layers': {'values': [[256, 128, 64, 32], [128, 64, 32], [64, 32]]},
+            'scheduler': {'values': ['CosineAnnealingLR', 'ReduceLROnPlateau']},
+            "batch_size": {'values': [512, 1024, 2048, 4096]},
+            "weight_decay": {'values': [0., 1e-5, 1e-3]}
 ```
