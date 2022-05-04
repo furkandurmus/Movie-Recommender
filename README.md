@@ -44,7 +44,7 @@ Additionaly you can play around with below arguments.
     arg.add_argument('--hp_run_number', type=int, default=200,
                     help='Number of hyperparameter tuning runs')
 ```
-If you set "wandb" argument as True,  [Wandb](https://wandb.ai/site) tool will start to try hyperparameters listed in hp_tuner.py below.
+If you set "wandb" argument as True,  [Wandb](https://wandb.ai/site) tool will start to try hyperparameters listed in hp_tuner.py below. Otherwise one can directly train the model via arguments above.
 ```bash
             'optimizer': {'values': ['sgd', 'adam', 'rmsprop']},
             'learning_rate': {'values': [0.001, 0.0005, 0.0001, 0.00005]},
@@ -54,3 +54,13 @@ If you set "wandb" argument as True,  [Wandb](https://wandb.ai/site) tool will s
             "batch_size": {'values': [512, 1024, 2048, 4096]},
             "weight_decay": {'values': [0., 1e-5, 1e-3]}
 ```
+
+## Results
+In this [LINK](https://wandb.ai/furkandurmus/Huawei?workspace=user-furkandurmus) hyperparameter tuning results can be observed. The best results came from with these parameters:
+| Learning rate |      0.0001     |
+|---------------|:---------------:|
+| Optimizer     |       adam      |
+| Scheduler     | CosineAnnealing |
+| Batch Size    |       4096      |
+| Hidden Layers |  [128, 64, 32]  |
+| Weight Decay  |      0.005      |
