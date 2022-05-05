@@ -61,7 +61,7 @@ In this [LINK](https://wandb.ai/furkandurmus/Huawei?workspace=user-furkandurmus)
 | Parameter     |      Value      |
 |---------------|:---------------:|
 | Learning rate |      0.0001     |
-| Optimizer     |      rmsprob    |
+| Optimizer     |      rmsprop    |
 | Scheduler     | CosineAnnealing |
 | Batch Size    |       512       |
 | Hidden Layers | [256,128,64,32] |
@@ -78,3 +78,26 @@ Train and Test Losses
 
 <img src="images/Loss.png" width="300px"/>
 
+
+# Recommended Films for User 1
+
+------------------------------------------------------------
+Recommended Top 5 Films for user 1
+
+
+Toy Story (1995) : Animation|Children's|Comedy
+
+
+Persuasion (1995) : Romance
+
+
+Hunchback of Notre Dame, The (1996) : Animation|Children's|Musical
+
+
+E.T. the Extra-Terrestrial (1982) : Children's|Drama|Fantasy|Sci-Fi
+
+
+Pleasantville (1998) : Comedy
+
+
+------------------------------------------------------------
