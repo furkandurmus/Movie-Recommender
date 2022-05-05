@@ -79,8 +79,7 @@ Train and Test Losses
 <img src="images/Loss.png" width="300px"/>
 
 
-# Recommended Films for User 1
-
+Prediction outputs of the best weights:
 ------------------------------------------------------------
 Recommended Top 5 Films for user 1
 
