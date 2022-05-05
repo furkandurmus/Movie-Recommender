@@ -58,6 +58,8 @@ If you set "wandb" argument as True,  [Wandb](https://wandb.ai/site) tool will s
 ## Results
 In this [LINK](https://wandb.ai/furkandurmus/Huawei?workspace=user-furkandurmus) hyperparameter tuning with random search results can be observed.  The best results were obtained with the following parameters:
 
+| Parameter     |      Value      |
+|---------------|:---------------:|
 | Learning rate |      0.0001     |
 | Optimizer     |       adam      |
 | Scheduler     | CosineAnnealing |
