@@ -61,11 +61,12 @@ In this [LINK](https://wandb.ai/furkandurmus/Huawei?workspace=user-furkandurmus)
 | Parameter     |      Value      |
 |---------------|:---------------:|
 | Learning rate |      0.0001     |
-| Optimizer     |       adam      |
+| Optimizer     |      rmsprob    |
 | Scheduler     | CosineAnnealing |
-| Batch Size    |       4096      |
-| Hidden Layers |  [128, 64, 32]  |
-| Weight Decay  |      0.005      |
+| Batch Size    |       512       |
+| Hidden Layers | [256,128,64,32] |
+| Weight Decay  |      0.00001    |
+| Dropout       |      0.5        |
 | Test Loss     |      0.75       |
 | RMSE          |      0.86       |
 
