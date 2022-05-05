@@ -79,7 +79,7 @@ Train and Test Losses
 <img src="images/Loss.png" width="300px"/>
 
 
-Prediction outputs of the best weights:
+Prediction outputs of the model with best weights:
 ------------------------------------------------------------
 Recommended Top 5 Films for user 1
 
