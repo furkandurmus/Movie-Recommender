@@ -64,3 +64,12 @@ In this [LINK](https://wandb.ai/furkandurmus/Huawei?workspace=user-furkandurmus)
 | Batch Size    |       4096      |
 | Hidden Layers |  [128, 64, 32]  |
 | Weight Decay  |      0.005      |
+| Test Loss     |      0.75       |
+| RMSE          |      0.86       |
+
+
+<img src="images/LR.png" width="1200px"/>
+Learning Rate Curvature During Training
+
+<img src="images/Loss.png" width="1200px"/>
+Train and Test Losses
