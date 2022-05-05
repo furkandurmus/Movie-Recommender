@@ -46,7 +46,7 @@ pyzmq==22.3.0
 requests-oauthlib==1.3.1
 rsa==4.8
 scikit-learn==1.0.2
-scipy==1.8.0
+scipy
 sentry-sdk==1.5.10
 setproctitle==1.2.3
 shortuuid==1.0.8
