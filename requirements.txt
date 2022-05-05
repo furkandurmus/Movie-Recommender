@@ -30,7 +30,7 @@ mkl-service==2.4.0
 nest-asyncio==1.5.4
 numpy==1.21.2
 oauthlib==3.2.0
-pandas==1.4.2
+pandas
 parso==0.8.3
 pathtools==0.1.2
 pickleshare==0.7.5
