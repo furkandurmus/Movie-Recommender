@@ -67,9 +67,9 @@ In this [LINK](https://wandb.ai/furkandurmus/Huawei?workspace=user-furkandurmus)
 | Test Loss     |      0.75       |
 | RMSE          |      0.86       |
 
-
-<img src="images/LR.png" width="300px"/>
 Learning Rate Curvature During Training
+<img src="images/LR.png" width="300px"/>
 
-<img src="images/Loss.png" width="300px"/>
 Train and Test Losses
+<img src="images/Loss.png" width="300px"/>
+
