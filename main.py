@@ -112,6 +112,7 @@ def train_model(args):
 
                 # keep best model weights to use later on inference phase
                 if epoch_loss < best_loss:
+                    best_loss = epoch_loss
                     best_model_wts = copy.deepcopy(model.state_dict())
                     best_epoch = epoch
                     best_epoch_loss = epoch_loss
