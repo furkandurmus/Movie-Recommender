@@ -171,7 +171,7 @@ class run_wandb():
     def prepare_model(self, model_layers):
         _, _, _, _, _, _, n_users, n_movies = create_dataset(self.args)
 
-        return EmbeddingsNet(n_users, n_movies, model_layers)
+        return EmbeddingsNet(n_users, n_movies, model_layers).to(self.device)
 
 
 
