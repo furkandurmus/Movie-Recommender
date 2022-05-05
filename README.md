@@ -15,6 +15,7 @@ conda env create -f requirements_cpu.yaml
 ```bash
 conda env create -f requirements_gpu.yaml
 ```
+- [COLAB](https://colab.research.google.com/drive/1NubvnjrdFdfwYP09N6zl-LA-FuKikm4m?usp=sharing)
 
 ## How to Use?
 To train with default parameters run;
