@@ -16,6 +16,11 @@ conda env create -f requirements_cpu.yaml
 conda env create -f requirements_gpu.yaml
 ```
 - [COLAB](https://colab.research.google.com/drive/1NubvnjrdFdfwYP09N6zl-LA-FuKikm4m?usp=sharing)
+- Docker
+```bash
+docker container run -it furkandurmus/movie_recommendation_system:latest
+```
+
 
 ## How to Use?
 To train with default parameters run;
