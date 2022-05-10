@@ -18,6 +18,7 @@ conda env create -f requirements_gpu.yaml
 - [COLAB](https://colab.research.google.com/drive/1NubvnjrdFdfwYP09N6zl-LA-FuKikm4m?usp=sharing)
 
 - Docker
+
 A docker image was created for this project. One can use this image to create container. Image contains ubuntu os with cuda.
 ```bash
 docker container run -it furkandurmus/movie_recommendation_system:latest
